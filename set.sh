@@ -2,15 +2,14 @@
 echo " ##################################################################"
 echo " ############### Clone My dots From Github ########################"
 echo " ##################################################################"
-mkdir ~/.config/ # Already Exist Because Enter In Fish Shell
-mkdir ~/.local/
+mkdir -p ~/{.config,.local}
 cd ~/.local/ && git clone https://github.com/frhxm/dots
 
 echo "##############################"
 echo "### Link My Dots Config ######"
 echo "##############################"
-mkdir -p ~/.local/share/		# For My Fonts
-rm -rf ~/.config/fish/  	  # delete Existing Folder First
+mkdir -p ~/.local/share/		            # For My Fonts
+rm -rf ~/.config/fish/ 2> /dev/null     # delete Existing Folder First
 ln -sf ~/.local/dots/pix ~/pix
 ln -sf ~/.local/dots/.xinitrc ~/.xinitrc
 ln -sf ~/.local/dots/.Xresources ~/.Xresources
@@ -30,7 +29,7 @@ echo " ########################### "
 echo " ### Directory In Home ##### "
 echo " ########################### "
 mkdir -p ~/{desk,dl,dox,music,prjcts,vids,pub}
-# trash-put Desktop/ Documents/ Downloads/ Music/ Pictures/ Public/ Templates/ Videos/
+# rm -rf Desktop/ Documents/ Downloads/ Music/ Pictures/ Public/ Templates/ Videos/ 2> /dev/null
 
 echo " ############################### "
 echo " ##### Permision Files ######### "
