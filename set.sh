@@ -2,14 +2,14 @@
 echo " ##################################################################"
 echo " ############### Clone My dots From Github ########################"
 echo " ##################################################################"
+rm -rf ~/.config 2> /dev/null
 mkdir -p ~/{.config,.local}
 cd ~/.local/ && git clone https://github.com/frhxm/dots
 
 echo "##############################"
 echo "### Link My Dots Config ######"
 echo "##############################"
-mkdir -p ~/.local/share/		            # For My Fonts
-rm -rf ~/.config/fish/ 2> /dev/null     # delete Existing Folder First
+mkdir -p ~/.local/share/		        # For My Fonts
 ln -sf ~/.local/dots/pix ~/pix
 ln -sf ~/.local/dots/.xinitrc ~/.xinitrc
 ln -sf ~/.local/dots/.Xresources ~/.Xresources
