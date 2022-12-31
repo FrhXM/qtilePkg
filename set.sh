@@ -22,6 +22,7 @@ ln -sf ~/.local/dots/.config/nvim ~/.config/nvim
 ln -sf ~/.local/dots/.config/fish ~/.config/fish
 ln -sf ~/.local/dots/.config/dunst ~/.config/dunst
 ln -sf ~/.local/dots/.config/picom ~/.config/picom
+ln -sf ~/.local/dots/.config/neofetch ~/.config/neofetch
 ln -sf ~/.local/dots/.config/user-dirs.dirs ~/.config/user-dirs.dirs
 ln -sf ~/.local/dots/.local/share/fonts ~/.local/share/fonts
 
