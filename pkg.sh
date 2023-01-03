@@ -9,4 +9,5 @@ sudo pacman -S --needed xorg-server xorg-xinit xorg-apps xwallpaper qtile kitty 
 	arc-gtk-theme papirus-icon-theme lxappearance-gtk3 unclutter picom \
 	pipewire pipewire-pulse wireplumber pipewire-alsa pipewire-jack pipewire-zeroconf alsa-utils pulsemixer \
 	bluez bluez-utils blueman network-manager-applet \
+	ttf-dejavu ttf-font-awesome ttf-jetbrains-mono \
 	xf86-video-intel xdg-user-dirs pacman-contrib neofetch

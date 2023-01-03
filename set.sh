@@ -30,7 +30,7 @@ echo " ########################### "
 echo " ### Directory In Home ##### "
 echo " ########################### "
 mkdir -p ~/{desk,dl,dox,music,prjcts,vids,pub}
-# rm -rf Desktop/ Documents/ Downloads/ Music/ Pictures/ Public/ Templates/ Videos/ 2> /dev/null
+rm -rf ~/Desktop/ Documents/ Downloads/ Music/ Pictures/ Public/ Templates/ Videos/ 2> /dev/null
 
 echo " ############################### "
 echo " ##### Permision Files ######### "
