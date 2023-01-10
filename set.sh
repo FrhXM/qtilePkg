@@ -11,6 +11,7 @@ echo "### Link My Dots Config ######"
 echo "##############################"
 mkdir -p ~/.local/share/		        # For My Fonts
 ln -sf ~/.local/dots/pix ~/pix
+ln -sf ~/.local/dots/.bashrc ~/.bashrc
 ln -sf ~/.local/dots/.xinitrc ~/.xinitrc
 ln -sf ~/.local/dots/.Xresources ~/.Xresources
 ln -sf ~/.local/dots/.config/qtile ~/.config/qtile
