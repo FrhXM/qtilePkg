@@ -9,8 +9,9 @@ cd ~/.local/ && git clone https://github.com/frhxm/dots
 echo "##############################"
 echo "### Link My Dots Config ######"
 echo "##############################"
-mkdir -p ~/.local/share/		        # For My Fonts
+mkdir -p ~/.local/share/                           # For My Fonts
 ln -sf ~/.local/dots/pix ~/pix
+ln -sf ~/.local/dots/.gitconfig ~/.gitconfig
 ln -sf ~/.local/dots/.bashrc ~/.bashrc
 ln -sf ~/.local/dots/.xinitrc ~/.xinitrc
 ln -sf ~/.local/dots/.Xresources ~/.Xresources
